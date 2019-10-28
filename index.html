@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu Amazon</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <nav id="menu" class="menu">
+
+        <!-- Boton hamburguesa y boton de cerrear, versión responsive -->
+        <div class="container container-buttons-menu">
+            <button id="hamburguer-button" class="hamburguer-button"><i class="fas fa-bars"></i></button>
+            <button id="close-button" class="close-button"><i class="fas fa-times"></i></button>
+        </div>
+        <!-- Fin Boton hamburguesa y boton de cerrear, versión responsive -->
+
+        <!-- Menú Principal -->
+        <div class="container container-links-nav">
+            <div id="btn-departments" class="btn-departments">
+                <p>Todos los <span>Departamentos</span></p>
+                <i class="fas fa-caret-down arrow-down"></i>
+            </div>
+            <div class="links">
+                <a href="#">Cuenta</a>
+                <a href="#">Promociones</a>
+                <a href="#">Mesa de Regalos</a>
+                <a href="#">Ayuda</a>
+            </div>
+        </div>
+        <!-- Fin Menú Principal --> 
+
+        <!-- Menu Categorias -->
+        <div class="container container-grid">
+            <div id="grid" class="grid">
+                <div class="container-categories">
+                    <button id="btn-back-categories" class="btn-back"><i class="btn-back-icon fas fa-arrow-left"></i>  Regresar</button>
+                    <h3 class="sub-title">Categorías</h3>
+                    <a href="#" data-categorie="tecnologia-computadores">Tecnología y Computadores <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="libros">Libros <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="ropa-accesorios">Ropa y Accesorios <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="hogar-cocina">Hogar y Cocina <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="juguetes-juegos">Juguetes y Juegos <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="salud-belleza">Salud y Belleza <i class="link-icon fas fa-angle-right"></i></a>
+                    <a href="#" data-categorie="alimentos-bebidas">Alimentos y Bebidas <i class="link-icon fas fa-angle-right"></i></a>                    
+                </div>
+                <div class="container-sub-categories">
+                    <!-- Subcategoria N°1 -->
+                    <div class="subcategorie active" data-categorie="tecnologia-computadores">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Tecnología y Computadores</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/tecnologia-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/tecnologia-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/tecnologia-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/tecnologia-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/tecnologia-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°1 -->
+                    <!-- Subcategoria N°2 -->
+                    <div class="subcategorie" data-categorie="libros">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Libros</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/libros-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/libros-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/libros-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/libros-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/libros-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°2 -->
+                    <!-- Subcategoria N°3 -->
+                    <div class="subcategorie" data-categorie="ropa-accesorios">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Ropa y Accesorios</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/ropa-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/ropa-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/ropa-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/ropa-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/ropa-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°3 -->
+                    <!-- Subcategoria N°4 -->
+                    <div class="subcategorie" data-categorie="hogar-cocina">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Hogar y Cocina</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/hogar-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/hogar-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/hogar-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/hogar-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/hogar-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°4 -->
+                    <!-- Subcategoria N°5 -->
+                    <div class="subcategorie" data-categorie="juguetes-juegos">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Juguetes y Juegos</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/juegos-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/juegos-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/juegos-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/juegos-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/juegos-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°5 -->
+                    <!-- Subcategoria N°6 -->
+                    <div class="subcategorie" data-categorie="salud-belleza">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Salud y Belleza</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/belleza-banner-1.png" alt="Belleza">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/belleza-galeria-1.png" alt="Belleza">
+                            </a>
+                            <a href="#">
+                                <img src="./images/belleza-galeria-2.png" alt="Belleza">
+                            </a>
+                            <a href="#">
+                                <img src="./images/belleza-galeria-3.png" alt="Belleza">
+                            </a>
+                            <a href="#">
+                                <img src="./images/belleza-galeria-4.png" alt="Belleza">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°6 -->
+                    <!-- Subcategoria N°7 -->
+                    <div class="subcategorie" data-categorie="alimentos-bebidas">
+                        <div class="links-subcategorie">
+                            <button class="btn-back"><i class="fas fa-arrow-left"></i>  Regresar</button>
+                            <h3 class="sub-title">Alimentos y Bebidas</h3>   
+                            <a href="#">Productos N°1</a>
+                            <a href="#">Productos N°2</a>
+                            <a href="#">Productos N°3</a>
+                            <a href="#">Productos N°4</a>
+                            <a href="#">Productos N°5</a>
+                            <a href="#">Productos N°6</a>
+                        </div>
+                        <div class="banner-subcategorie">
+                            <a href="#">
+                                <img src="./images/comida-banner-1.png" alt="Tecnología y Computadores">
+                            </a>
+                        </div>
+                        <div class="galerie-subcategorie">
+                            <a href="#">
+                                <img src="./images/comida-galeria-1.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/comida-galeria-2.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/comida-galeria-3.png" alt="Tecnología">
+                            </a>
+                            <a href="#">
+                                <img src="./images/comida-galeria-4.png" alt="Tecnología">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin Subcategoria N°7 -->                        
+                </div>
+            </div>
+        </div>
+        <!-- Fin Menú categorias -->
+
+    </nav>
+
+    <main class="container">
+        <article></article>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
